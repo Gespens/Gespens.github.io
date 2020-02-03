@@ -1,249 +1,49 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
-	<head>
-	<link href="https://fonts.googleapis.com/css?family=Lato|Sigmar+One&display=swap" rel="stylesheet">
-	<meta charset="utf-8">
-		<title>Gespens</title>
-	<style>
-		body {
-			background-color:  #0d1a26;
-			overflow: hidden;
-			padding: 0;
-			margin: 0;
-			}
-		.text1 {
-		
-			text-shadow:0 0 25px black;
-			font-size:120px;
-			color: #ffffff;
-            font-family: 'Raleway', sans-serif;
-			}
-			
-		.btnslst {
-		transform: translate(-50%,-50%);
-		position: absolute;
-		top: 300px;
-		left: 50%;
-		}
-		.obrazek {
-		width: 200px;
-		height: 200px;
-		
- 
 
-		}
-		.obrazek:hover {
-		z-index: 2;
-		}
- 		.obrazek1 {
-		border:5px solid #000000;
-		  -webkit-transition: all 0.5s ease;
-     -moz-transition: all 0.5s ease;
-       -o-transition: all 0.5s ease;
-      -ms-transition: all 0.5s ease;
-          transition: all 0.5s ease;
-		
-		}
-	
-		.obrazek1:hover {
-		-webkit-transform: rotate(-10deg);
-     -moz-transform: rotate(-10deg);
-       -o-transform: rotate(-10deg);
-      -ms-transform: rotate(-10deg);
-          transform: rotate(-10deg);
-		}
-		.obrazek2 {
-		border:5px solid #000000;
-				  -webkit-transition: all 0.5s ease;
-     -moz-transition: all 0.5s ease;
-       -o-transition: all 0.5s ease;
-      -ms-transition: all 0.5s ease;
-          transition: all 0.5s ease;
-		  margin-left: 15px;
-		}
-		.obrazek2:hover {
-			-webkit-transform: rotate(-10deg);
-     -moz-transform: rotate(-10deg);
-       -o-transform: rotate(-10deg);
-      -ms-transform: rotate(-10deg);
-          transform: rotate(-10deg);
-		}
-		.obrazek3 {
-		border:5px solid #000000;
-				  -webkit-transition: all 0.5s ease;
-     -moz-transition: all 0.5s ease;
-       -o-transition: all 0.5s ease;
-      -ms-transition: all 0.5s ease;
-          transition: all 0.5s ease;
-		  margin-left: 15px;
-		}
-		.obrazek3:hover {
-			-webkit-transform: rotate(-10deg);
-     -moz-transform: rotate(-10deg);
-       -o-transform: rotate(-10deg);
-      -ms-transform: rotate(-10deg);
-          transform: rotate(-10deg);
-		}
-		.obrazek4 {
-		border:5px solid #000000;
-				  -webkit-transition: all 0.5s ease;
-     -moz-transition: all 0.5s ease;
-       -o-transition: all 0.5s ease;
-      -ms-transition: all 0.5s ease;
-          transition: all 0.5s ease;
-		  margin-left: 15px;
-		}
-		.obrazek4:hover {
-			-webkit-transform: rotate(-10deg);
-     -moz-transform: rotate(-10deg);
-       -o-transform: rotate(-10deg);
-      -ms-transform: rotate(-10deg);
-          transform: rotate(-10deg);
-		}
-		
-		
-}
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Sigmar+One&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Gespens</title>
+</head>
 
-	.site-nav {
-	display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 10px;
-  box-sizing: border-box;
-  height: 20px;
-  width: 100%;
-  background: #yellow;
-	
-	}
 
-	.side-menu-trigger {
-  border: 0;
-  border-radius: 10px;
-  background: #ffffff; 
-  position: absolute;
-  top: 6px;
-  left: 3px;
-  
-}
+<body>
 
-.side-menu {
- border-radius: 10px;
-  display: flex;
-  box-sizing: border-box;
-  position: absolute;
-  height: 100%;
-  width: 300px;
-  top: 50px;
-  left: -300px;
-  padding: 0;
-  background:  #004d66;
-  transition: 0.3s transform ease-in-out;
-}
+    <div class="txtbox"><h1 align="center" class="text1">STASIEK CZAJKA</h1></div>
+    <div class="btnslst">
+        <a>
+            <td><img src="steam.png" alt="steam" border=1 class="obrazek obrazek1" title="hmm." onclick="obrazek1()"/></td>
+        </a>
+        <a>
+            <td><img src="fb.png" alt="facebook" class="obrazek obrazek2" title="na pewno nie" onclick="obrazek2()"//></td>
+        </a>
+        <a>
+            <td><img src="git.png" alt="github" class="obrazek obrazek3" title="tam nawet nic nie ma" onclick="obrazek3()"//></td>
+        </a>
+        <a>
+            <td><img src="yt.png" alt="yt" class="obrazek obrazek4" title="wejdź bo warto" onclick="obrazek4()"/ /></td>
+        </a>
+    </div>
 
-.side-menu ul {
-  position: absolute;
-  display: flex;
-  height: calc(100% - 20px);
-  flex-wrap: wrap;
-  margin: 0 10px;
-  padding: 0;
-  list-style-type: none;
-  align-content: flex-start
-}
-
-.side-menu ul li {
-  display: flex;
-  height: 30px;
-  background: white;
-  flex-basis: 100%;
-  margin-top: 20px;
-  color: #696e9e;
-  border-radius: 5px;
-  overflow: hidden;
-  
-}
-
-.side-menu ul li a {
-  display: flex;
-  padding: 10px;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  background: #ffffff;
-  text-decoration: none;
-  box-sizing: border-box;
-}
-
-.side-menu-trigger:focus ~ .side-menu, .side-menu:hover {
-  transform: translateX(300px); 
-}
-.side-menu a:hover {
-background: #0d1a26;
-color: white;
-}
-.napisik {
-font-family: 'Raleway', sans-serif;
-color: black;
-}
-
-	
-		
-		
-		
-		
-	</style>
-	</head>
-	
-	
-
-</script>
-			
-			
-			
-		
-	<body> 
-	
-	<h1 align="center" class="text1">STASIEK CZAJKA</h1>
-	<div class="btnslst">
-			<a href="https://steamcommunity.com/id/stachu258/"><td><img src="steam.png" alt="steam" border=1 class="obrazek obrazek1" title="hmm."/></td></a> 
-			<a href="https://www.facebook.com/krzysztof.kononowicz.58555"><td><img src="fb.png" alt="facebook" class="obrazek obrazek2" title="na pewno nie" /></td></a>
-			<a href="https://github.com/Gespens"><td><img src="git.png" alt="github" class="obrazek obrazek3" title="tam nawet nic nie ma" /></td></a> 
-			<a href="https://www.youtube.com/watch?v=fizke4p_QN0"><td><img src="yt.png" alt="yt" class="obrazek obrazek4" title="wejdź bo warto" /></td></a> 
-		</div>
-	
-			<nav class="site-nav">
-     <button id="close" class="side-menu-trigger" onClick="javascript:close_clip()"><img src="menu.png" /></button>
-    <aside class="side-menu">
-      <ul>
-        <li>
-          <a href="index.html" class="napisik">
+    <nav class="site-nav">
+        <button id="close" class="side-menu-trigger"><img src="menu.png" /></button>
+        <aside class="side-menu">
+            <ul>
+                <li>
+                    <a href="index.html" class="napisik">
             Strona Główna
           </a>
-        </li>
-        <li>
-          <a href="gry.html" class="napisik"> 
+                </li>
+                <li>
+                    <a href="gry.html" class="napisik"> 
             Gry
           </a>
-        </li>
-        
-      </ul>
-		
-	
-	
-	
-	
+                </li>
 
-	
-		
-		
-		
-	
-	
-	
-		
-		
-		
-		
-	</body>
-	
+            </ul>
+	<script src="script.js"></script>
+</body>
+
 </html>
