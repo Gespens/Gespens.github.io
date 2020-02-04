@@ -1,0 +1,148 @@
+<DOCTYPE html>
+<html>
+	<head>
+	<link href="https://fonts.googleapis.com/css?family=Lato|Sigmar+One&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+		<title>Gespens</title>
+	<style>
+		body {
+			background-color:  #0d1a26;
+			overflow: hidden;
+			padding: 0;
+			margin: 0;
+			}
+		.text1 {
+		
+			text-shadow:0 0 25px black;
+			font-size:120px;
+			color: #ffffff;
+            font-family: 'Raleway', sans-serif;
+			}
+			.site-nav {
+	display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  height: 20px;
+  width: 100%;
+  background: #yellow;
+	
+	}
+
+	.side-menu-trigger {
+  border: 0;
+  border-radius: 10px;
+  background: #ffffff; 
+  position: absolute;
+  top: 6px;
+  left: 3px;
+  
+}
+
+.side-menu {
+ border-radius: 10px;
+  display: flex;
+  box-sizing: border-box;
+  position: absolute;
+  height: 100%;
+  width: 300px;
+  top: 50px;
+  left: -300px;
+  padding: 0;
+  background:  #004d66;
+  transition: 0.3s transform ease-in-out;
+}
+
+.side-menu ul {
+  position: absolute;
+  display: flex;
+  height: calc(100% - 20px);
+  flex-wrap: wrap;
+  margin: 0 10px;
+  padding: 0;
+  list-style-type: none;
+  align-content: flex-start
+}
+
+.side-menu ul li {
+  display: flex;
+  height: 30px;
+  background: white;
+  flex-basis: 100%;
+  margin-top: 20px;
+  color: #696e9e;
+  border-radius: 5px;
+  overflow: hidden;
+  
+}
+
+.side-menu ul li a {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.side-menu-trigger:focus ~ .side-menu, .side-menu:hover {
+  transform: translateX(300px); 
+}
+.side-menu a:hover {
+background: #0d1a26;
+color: white;
+}
+.napisik {
+font-family: 'Raleway', sans-serif;
+color: black;
+}
+		
+
+
+	
+		
+		
+		
+		
+	</style>
+	</head>
+	
+	
+
+</script>
+			
+			
+			
+		
+	<body> 
+	
+	<h1 align="center" class="text1">GRY</h1>
+	
+	<nav class="site-nav">
+     <button id="close" class="side-menu-trigger" onClick="javascript:close_clip()"><img src="menu.png" /></button>
+    <aside class="side-menu">
+      <ul>
+        <li>
+          <a href="index.html" class="napisik">
+            Strona Główna
+          </a>
+        </li>
+        <li>
+          <a href="gry.html" class="napisik"> 
+            Gry
+          </a>
+        </li>
+        
+      </ul>
+	
+		
+
+		
+		
+		
+	</body>
+	
+</html>
