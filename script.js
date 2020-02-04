@@ -10,3 +10,6 @@ function obrazek3() {
 function obrazek4() {
 	location.href="https://www.youtube.com/watch?v=fizke4p_QN0";
 }
+function menu() {
+	Array.from(document.querySelectorAll(".side-menu")).forEach(el => el.classList.toggle("show"));
+}
