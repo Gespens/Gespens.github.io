@@ -1,15 +1,24 @@
 body {
-	<body background="tlo.jpg"></body>;
-	background-attachment: fixed;
+		background-color: #808080;
+			overflow: hidden;
+			padding: 0;
+			margin: 0;
+ 
 }
-
+.pad{
+		position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 40px;
+	color: white;
+}
 .text1 {
 	text-shadow: 0 0 25px black;
 	font-size: 120px;
 	color: #ffffff;
 	font-family: 'Raleway', sans-serif;
 	position: relative;
-	top: 200px;
+	top: 150px;
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
@@ -17,7 +26,7 @@ body {
 .btnslst {
 	transform: translate(-50%, -50%);
 	position: absolute;
-	top: 600px;
+	top: 450px;
 	left: 50%;
 	width: 1030px;
 	height: 300px;
