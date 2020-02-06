@@ -1,130 +1,22 @@
 body {
-		background-color: #808080;
+			background-image: url("https://i.pinimg.com/originals/11/0e/05/110e0511480137977013175b84494503.jpg");
 			overflow: hidden;
 			padding: 0;
 			margin: 0;
  
 }
-.pad{
-		position: absolute;
-	width: 20px;
-	height: 20px;
-	left: 40px;
-	color: white;
-}
+
 .text1 {
-	text-shadow: 0 0 25px black;
 	font-size: 120px;
-	color: #ffffff;
 	font-family: 'Raleway', sans-serif;
+	color: white;
 	position: relative;
-	top: 150px;
+	top: 100px;
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
 
-.btnslst {
-	transform: translate(-50%, -50%);
-	position: absolute;
-	top: 450px;
-	left: 50%;
-	width: 1030px;
-	height: 300px;
-	text-align: center;
-}
-.obrazek {
-	position: absolute;
-	width: 200px;
-	height: 200px;
-	top: 30px;
-	background-size: cover;
-}
 
-.obrazek:hover {
-	z-index: 2;
-}
-
-.obrazek1 {
-	border: 5px solid #000000;
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	-ms-transition: all 0.5s ease;
-	transition: all 0.5s ease;
-	left: 30px;
-	background-image: url("steam.png");
-}
-
-.obrazek1:hover {
-	-webkit-transform: rotate(-10deg);
-	-moz-transform: rotate(-10deg);
-	-o-transform: rotate(-10deg);
-	-ms-transform: rotate(-10deg);
-	transform: rotate(-10deg);
-}
-
-.obrazek2 {
-	border: 5px solid #000000;
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	-ms-transition: all 0.5s ease;
-	transition: all 0.5s ease;
-	margin-left: 15px;
-	left: 280px;
-	background-image: url("fb.png");
-}
-
-.obrazek2:hover {
-	-webkit-transform: rotate(-10deg);
-	-moz-transform: rotate(-10deg);
-	-o-transform: rotate(-10deg);
-	-ms-transform: rotate(-10deg);
-	transform: rotate(-10deg);
-}
-
-.obrazek3 {
-	border: 5px solid #000000;
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	-ms-transition: all 0.5s ease;
-	transition: all 0.5s ease;
-	margin-left: 15px;
-	left: 530px;
-	background-image: url("git.png");
-}
-
-.obrazek3:hover {
-	-webkit-transform: rotate(-10deg);
-	-moz-transform: rotate(-10deg);
-	-o-transform: rotate(-10deg);
-	-ms-transform: rotate(-10deg);
-	transform: rotate(-10deg);
-}
-
-.obrazek4 {
-	border: 5px solid #000000;
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	-ms-transition: all 0.5s ease;
-	transition: all 0.5s ease;
-	margin-left: 15px;
-	left: 780px;
-	background-image: url("yt.png");
-}
-
-.obrazek4:hover {
-	-webkit-transform: rotate(-10deg);
-	-moz-transform: rotate(-10deg);
-	-o-transform: rotate(-10deg);
-	-ms-transform: rotate(-10deg);
-	transform: rotate(-10deg);
-}
-
-
-}
 .site-nav {
 	display: flex;
 	justify-content: flex-end;
@@ -138,7 +30,7 @@ body {
 .side-menu-trigger {
 	border: 0;
 	border-radius: 10px;
-	background: #ffffff;
+	background-color: white;
 	position: absolute;
 	top: 20px;
 	left: 30px;
@@ -173,7 +65,6 @@ body {
 	background: white;
 	flex-basis: 100%;
 	margin-top: 20px;
-	color: #696e9e;
 	border-radius: 5px;
 	overflow: hidden;
 }
@@ -194,8 +85,12 @@ body {
 }
 */
 .side-menu a:hover {
-	background: #0d1a26;
-	color: white;
+	box-shadow: inset 0px -100px 0px 0px #ffaa00;
+	
+}
+.side-menu a {
+		box-shadow: inset 0px 0px 0px 0px #994d00;
+	transition: all 0.5s ease-in-out;
 }
 .napisik {
 	font-family: 'Raleway', sans-serif;
@@ -232,4 +127,32 @@ body {
 	position: absolute;
 	left: 50%;
 	top: 9000px;
+}
+.button {
+	
+	border: 0;
+	border-radius: 10px;
+	background-color: #808080;
+	position: absolute;
+	top: 300px;
+	left: 45%;
+	transform: translate(-50%,-50%);
+	background-color: white;
+	height: 70px;
+	width: 170px;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	box-shadow: inset 0px 0px 0px 0px #994d00;
+	transition: all 0.5s ease-in-out;
+	transform: scale(1.2);
+	transition-duration: 0.7s;
+
+
+}
+.button:hover{
+	box-shadow: inset 0px -100px 0px 0px #ffaa00;
+	color: white;
+	-webkit-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+	
 }
