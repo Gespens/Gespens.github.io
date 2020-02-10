@@ -84,19 +84,26 @@ body {
 	transform: translateX(300px);
 }
 */
-.side-menu a:hover {
+.napisik:hover{
 	box-shadow: inset 0px -100px 0px 0px #ffaa00;
+	color: white;
+	-webkit-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+	
+}
 	
 }
 .side-menu a {
-		box-shadow: inset 0px 0px 0px 0px #994d00;
-	transition: all 0.5s ease-in-out;
-	transform: scale(1.2);
-	transition-duration: 0.2s;
+	
 }
 .napisik {
 	font-family: 'Raleway', sans-serif;
 	color: black;
+	justify-content: center;
+	box-shadow: inset 0px 0px 0px 0px #994d00;
+	transition: all 0.5s ease-in-out;
+	transform: scale(1.2);
+	transition-duration: 0.5s;
 }
 .txtbox {
 	width: 100%;
@@ -133,7 +140,7 @@ body {
 .button {
 	
 	border: 0;
-	border-radius: 10px;
+	border-radius: 20px;
 	background-color: #808080;
 	position: absolute;
 	top: 300px;
@@ -147,7 +154,8 @@ body {
 	box-shadow: inset 0px 0px 0px 0px #994d00;
 	transition: all 0.5s ease-in-out;
 	transform: scale(1.2);
-	transition-duration: 0.2s;
+	transition-duration: 0.5s;
+	
 
 
 }

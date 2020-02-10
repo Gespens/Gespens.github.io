@@ -13,3 +13,6 @@ function obrazek4() {
 function menu() {
 	Array.from(document.querySelectorAll(".side-menu")).forEach(el => el.classList.toggle("show"));
 }
+function click1() {
+	location.href="https://www.youtube.com/channel/UCDhSnLzwEdJoWh3te6nLj6Q";
+}
