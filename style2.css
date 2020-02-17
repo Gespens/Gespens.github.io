@@ -1,12 +1,10 @@
 body {
-			background-image: url("https://wallpaperscute.com/wp-content/uploads/2018/04/Best-Rick-and-Morty-Wallpaper.jpg");
+			background-image: url("https://www.ecopetit.cat/wpic/mpic/6-69883_wallpapers-best-wallpapers-1920x1080-minimalist.jpg");
+			background-position: top;
 			overflow: hidden;
 			padding: 0;
 			margin: 0;
-			background-position: top;
-			background-repeat: no-repeat;
-			background-size: cover;
-		
+ 
 }
 
 .text1 {
@@ -88,7 +86,7 @@ body {
 }
 */
 .napisik:hover{
-	box-shadow: inset 0px -100px 0px 0px #d580ff;
+	box-shadow: inset 0px -100px 0px 0px #ffaa00;
 	color: white;
 	-webkit-transform: scale(1.3);
 	-moz-transform: scale(1.3);
@@ -103,7 +101,7 @@ body {
 	font-family: 'Raleway', sans-serif;
 	color: black;
 	justify-content: center;
-	box-shadow: inset 0px 0px 0px 0px #b300b3;
+	box-shadow: inset 0px 0px 0px 0px #994d00;
 	transition: all 0.5s ease-in-out;
 	transform: scale(1.2);
 	transition-duration: 0.5s;
@@ -154,7 +152,7 @@ body {
 	width: 170px;
 	font-size: 20px;
 	font-family: 'Raleway', sans-serif;
-	box-shadow: inset 0px 0px 0px 0px #b300b3;
+	box-shadow: inset 0px 0px 0px 0px #994d00;
 	transition: all 0.5s ease-in-out;
 	transform: scale(1.2);
 	transition-duration: 0.5s;
@@ -163,7 +161,7 @@ body {
 
 }
 .button:hover{
-	box-shadow: inset 0px -100px 0px 0px #d580ff;
+	box-shadow: inset 0px -100px 0px 0px #ffaa00;
 	color: white;
 	-webkit-transform: scale(1.3);
 	-moz-transform: scale(1.3);
