@@ -17,8 +17,14 @@ body {
 	top: 100px;
 	left: 50%;
 	transform: translate(-50%,-50%);
+	animation: rgbcolor 5s infinite;
 }
 
+@-webkit-keyframes rgbcolor {
+	0% { color: blue; }
+	50% { color: red; }
+	100%{ color: blue;}
+}
 
 .site-nav {
 	display: flex;
