@@ -1,3 +1,9 @@
+@-webkit-keyframes rgbcolor {
+	0% { color: blue; }
+	50% { color: red; }
+	100%{ color: blue;}
+}
+
 body {
 			background-image: url("https://wallpaperscute.com/wp-content/uploads/2018/04/Best-Rick-and-Morty-Wallpaper.jpg");
 			overflow: hidden;
@@ -20,11 +26,7 @@ body {
 	animation: rgbcolor 5s infinite;
 }
 
-@-webkit-keyframes rgbcolor {
-	0% { color: blue; }
-	50% { color: red; }
-	100%{ color: blue;}
-}
+
 
 .site-nav {
 	display: flex;
