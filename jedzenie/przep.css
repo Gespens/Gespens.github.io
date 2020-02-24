@@ -1,0 +1,51 @@
+body{
+	background-color: #ffffe6;
+}
+.text1{
+	font-family: Raleway;
+	font-size: 100px;
+	position: absolute;
+	left: 50%;
+	top: 190px;
+	transform: translate(-50%,-50%);
+}
+.pole{
+	width: device-width;
+	height: 100px;
+	background-color: white;
+	border-style: solid;
+	border-color: green;
+	
+}
+.text2{
+	font-family: Raleway;
+	font-size: 20px;
+	position: absolute;
+	left: 35%;
+	top: 60px;
+	transform: translate(-50%,-50%);
+}
+.text3{
+	font-family: Raleway;
+	font-size: 20px;
+	position: absolute;
+	left: 45%;
+	top: 60px;
+	transform: translate(-50%,-50%);
+}
+.text4{
+	font-family: Raleway;
+	font-size: 20px;
+	position: absolute;
+	left: 55%;
+	top: 60px;
+	transform: translate(-50%,-50%);
+}
+.text5{
+	font-family: Raleway;
+	font-size: 20px;
+	position: absolute;
+	left: 65%;
+	top: 60px;
+	transform: translate(-50%,-50%);
+}
