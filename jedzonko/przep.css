@@ -1,0 +1,102 @@
+body{
+	background-color: #ffffe6;
+}
+.text1{
+	font-family: Raleway;
+	font-size: 100px;
+	position: absolute;
+	left: 50%;
+	top: 190px;
+	transform: translate(-50%,-50%);
+	text-decoration: none;
+	color: black;
+}
+.pole{
+	width: device-width;
+	height: 100px;
+	background-color: white;
+	border-style: solid;
+	border-color: green;
+	
+}
+.text2{
+	font-family: Raleway;
+	font-size: 20px;
+	position: absolute;
+	left: 30%;
+	top: 60px;
+	transform: translate(-50%,-50%);
+	text-decoration: none;
+	color: black;
+}
+.text3{
+	font-family: Raleway;
+	font-size: 20px;
+	position: absolute;
+	left: 40%;
+	top: 60px;
+	transform: translate(-50%,-50%);
+	text-decoration: none;
+	color: black;
+}
+.text4{
+	font-family: Raleway;
+	font-size: 20px;
+	position: absolute;
+	left: 50%;
+	top: 60px;
+	transform: translate(-50%,-50%);
+	text-decoration: none;
+	color: black;
+}
+.text5{
+	font-family: Raleway;
+	font-size: 20px;
+	position: absolute;
+	left: 60%;
+	top: 60px;
+	transform: translate(-50%,-50%);
+	text-decoration: none;
+	color: black;
+}
+.text6{
+	font-family: Raleway;
+	font-size: 20px;
+	position: absolute;
+	left: 70%;
+	top: 60px;
+	transform: translate(-50%,-50%);
+	text-decoration: none;
+	color: black;
+}
+.kurczak{
+    overflow: hidden;
+    padding: 0;
+    width: 400px;
+    height: 300px;
+	border:1px solid #000;
+	position: absolute;
+	left: 400px;
+	top: 500px;
+	transform: translate(-50%,-50%);
+	box-shadow:0 0 4px black; 
+}
+.kurczak img {
+    transition-duration: 1s;
+    margin: 0 auto;
+    display: block;
+}
+.kurczak img:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    z-index: 0;
+}
+.textmain{
+	position: absolute;
+	left: 400px;
+	top: 660px;
+	transform: translate(-50%,-50%);
+	font-family: Raleway;
+	font-size: 25px;
+}
