@@ -10,9 +10,11 @@ body{
 	transform: translate(-50%,-50%);
 	text-decoration: none;
 	color: black;
+	overflow: auto; 
+	text-align: center;
 }
 .pole{
-	width: device-width;
+	width: auto;
 	height: 100px;
 	background-color: white;
 	border-style: solid;
@@ -95,7 +97,7 @@ body{
 	text-align: center;
 	width: 1000px;
 	position: absolute;
-	top: 35%;
+	top: 15%;
     left: 50% ;
 	transform: translate(-50%, -50%);
 	color: green;

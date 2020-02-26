@@ -79,10 +79,9 @@ body{
 	left: 400px;
 	top: 500px;
 	transform: translate(-50%,-50%);
-	box-shadow:0 0 4px black; 
 }
 .kurczak img {
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     margin: 0 auto;
     display: block;
 }

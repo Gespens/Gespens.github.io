@@ -69,3 +69,21 @@ body{
 	text-decoration: none;
 	color: black;
 }
+.czy{
+	position: absolute;
+	top: 220px;
+	transform: translate (-50%,-50%);
+	left: 30%;
+	font-size:30px;
+	font-family: Raleway;
+	color: green;
+}
+.sok{
+	position: absolute;
+	top: 300px;
+	transform: translate (-50%,-50%);
+	left: 20px;
+	font-size:30px;
+	font-family: Raleway;
+	color: green;
+}
