@@ -8,7 +8,7 @@ body{
 	font-size: 100px;
 	position: absolute;
 	left: 50%;
-	top: 190px;
+	top: 200px;
 	transform: translate(-50%,-50%);
 	text-decoration: none;
 	color: black;
@@ -20,6 +20,26 @@ body{
 	border-style: solid;
 	border-color: green;
 	
+}
+
+.text2:hover{
+	color: green;
+}
+
+.text3:hover{
+	color: green;
+}
+
+.text4:hover{
+	color: green;
+}
+
+.text5:hover{
+	color: green;
+}
+
+.text6:hover{
+	color: green;
 }
 .text2{
 	font-family: Raleway;
@@ -70,4 +90,20 @@ body{
 	transform: translate(-50%,-50%);
 	text-decoration: none;
 	color: black;
+}
+.logo{
+	height: 400px;
+	width:400px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	top: 500px;
+}
+.logo2{
+	height: 100px;
+	width:100px;
+	position: absolute;
+	left: 100px;
+	transform: translate(-50%,-50%);
+	top: 64px;
 }

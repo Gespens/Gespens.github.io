@@ -6,7 +6,7 @@ body{
 	font-size: 100px;
 	position: absolute;
 	left: 50%;
-	top: 190px;
+	top: 200px;
 	transform: translate(-50%,-50%);
 	text-decoration: none;
 	color: black;
@@ -18,6 +18,24 @@ body{
 	border-style: solid;
 	border-color: green;
 	
+}.text2:hover{
+	color: green;
+}
+
+.text3:hover{
+	color: green;
+}
+
+.text4:hover{
+	color: green;
+}
+
+.text5:hover{
+	color: green;
+}
+
+.text6:hover{
+	color: green;
 }
 .text2{
 	font-family: Raleway;
@@ -73,17 +91,70 @@ body{
 	position: absolute;
 	top: 220px;
 	transform: translate (-50%,-50%);
-	left: 30%;
+	left: 640px;
 	font-size:30px;
 	font-family: Raleway;
-	color: green;
+	color: black;
 }
 .sok{
 	position: absolute;
-	top: 300px;
+	top: 400px;
 	transform: translate (-50%,-50%);
-	left: 20px;
+	left: 700px;
 	font-size:30px;
+	width: 600px;
 	font-family: Raleway;
 	color: green;
+}
+.logo{
+	height: 100px;
+	width:100px;
+	position: absolute;
+	left: 100px;
+	transform: translate(-50%,-50%);
+	top: 64px;
+}
+.pomidor{
+	position: absolute;
+	top: 550px;
+	transform: translate (-50%,-50%);
+	left: 35%;
+	height: 500px;
+	width: 600px;
+}
+.banan{
+	position: absolute;
+	top: 1100px;
+	transform: translate (-50%,-50%);
+	left: 700px;
+	font-size:30px;
+	width: 600px;
+	font-family: Raleway;
+	color: green;
+}
+.bananzdj{
+	position: absolute;
+	top: 1200px;
+	transform: translate (-50%,-50%);
+	left: 35%;
+	height: 500px;
+	width: 600px;
+}
+.ziemniak{
+	position: absolute;
+	top: 1750px;
+	transform: translate (-50%,-50%);
+	left: 700px;
+	font-size:30px;
+	width: 600px;
+	font-family: Raleway;
+	color: green;
+}
+.ziemniakzdj{
+	position: absolute;
+	top: 1900px;
+	transform: translate (-50%,-50%);
+	left: 35%;
+	height: 500px;
+	width: 600px;
 }

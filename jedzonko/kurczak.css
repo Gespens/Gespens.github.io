@@ -21,6 +21,25 @@ body{
 	border-color: green;
 	
 }
+.text2:hover{
+	color: green;
+}
+
+.text3:hover{
+	color: green;
+}
+
+.text4:hover{
+	color: green;
+}
+
+.text5:hover{
+	color: green;
+}
+
+.text6:hover{
+	color: green;
+}
 .text2{
 	font-family: Raleway;
 	font-size: 20px;
@@ -101,4 +120,12 @@ body{
     left: 50% ;
 	transform: translate(-50%, -50%);
 	color: green;
+}
+.logo{
+	height: 100px;
+	width:100px;
+	position: absolute;
+	left: 100px;
+	transform: translate(-50%,-50%);
+	top: 64px;
 }
