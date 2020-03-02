@@ -168,3 +168,11 @@ body{
 	text-decoration: none;
 	color: black;
 }
+.str {
+	width:800px;
+	position: absolute;
+	transform: translate(-50%);
+	height: 200px;
+	left: 50%;
+	top: 200px;
+}

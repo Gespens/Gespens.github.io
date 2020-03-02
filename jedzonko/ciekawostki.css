@@ -1,16 +1,7 @@
 body{
 	background-color: #ffffe6;
 }
-.text1{
-	font-family: Raleway;
-	font-size: 100px;
-	position: absolute;
-	left: 50%;
-	top: 200px;
-	transform: translate(-50%,-50%);
-	text-decoration: none;
-	color: black;
-}
+
 .pole{
 	width: device-width;
 	height: 100px;
@@ -87,20 +78,11 @@ body{
 	text-decoration: none;
 	color: black;
 }
-.czy{
-	position: absolute;
-	top: 220px;
-	transform: translate (-50%,-50%);
-	left: 640px;
-	font-size:30px;
-	font-family: Raleway;
-	color: black;
-}
 .sok{
 	position: absolute;
 	top: 400px;
 	transform: translate (-50%,-50%);
-	left: 700px;
+	left: 35%;
 	font-size:30px;
 	width: 600px;
 	font-family: Raleway;
@@ -126,7 +108,7 @@ body{
 	position: absolute;
 	top: 1100px;
 	transform: translate (-50%,-50%);
-	left: 700px;
+	left: 35%;
 	font-size:30px;
 	width: 600px;
 	font-family: Raleway;
@@ -144,7 +126,7 @@ body{
 	position: absolute;
 	top: 1750px;
 	transform: translate (-50%,-50%);
-	left: 700px;
+	left: 35%;
 	font-size:30px;
 	width: 600px;
 	font-family: Raleway;
@@ -157,4 +139,32 @@ body{
 	left: 35%;
 	height: 500px;
 	width: 600px;
+	margin-bottom: 100px;
+}
+.ciek {
+	width:800px;
+	position: absolute;
+	transform: translate(-50%);
+	height: 200px;
+	left: 50%;
+	top: 200px;
+}
+.text1{
+	font-family: Raleway;
+	font-size: 100px;
+	position: absolute;
+	left: 50%;
+	top: 50px;
+	transform: translate(-50%,-50%);
+	text-decoration: none;
+	color: black;
+}
+.czy{
+	position: absolute;
+	top: 80px;
+	transform: translate (-50%,-50%);
+	left: 10%;
+	font-size:30px;
+	font-family: Raleway;
+	color: black;
 }
