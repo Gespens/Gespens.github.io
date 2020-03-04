@@ -14,7 +14,12 @@ body{
 	text-align: center;
 }
 .pole{
-	width: auto;
+	width: 1570px;
+	transform: translate(-50%);
+	position: absolute;
+	cursor: pointer;
+	left: 50%;
+	top: 10px;
 	height: 100px;
 	background-color: white;
 	border-style: solid;
@@ -127,5 +132,5 @@ body{
 	position: absolute;
 	left: 100px;
 	transform: translate(-50%,-50%);
-	top: 64px;
+	top: 50%;
 }
